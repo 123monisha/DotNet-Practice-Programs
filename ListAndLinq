@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace Practical_Example
+{
+    internal class ListAndLinq
+    {
+        static void Main(string[] args)
+        {
+            // Create a list of integers
+            List<int> numbers = new List<int> { 10, 25, 30, 45, 60, 75 };
+
+            // Use LINQ to find numbers greater than 30
+            var result = numbers.Where(n => n > 30);
+
+            Console.WriteLine("Numbers greater than 30:");
+            foreach (int num in result)
+            {
+                Console.WriteLine(num);
+            }
+
+            Console.ReadLine();
+        }
+    }
+}
