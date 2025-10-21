@@ -1,0 +1,8 @@
+<h3>🎓 Student List</h3>
+
+<input type="text" [(ngModel)]="newStudent" placeholder="Enter student name" />
+<button (click)="addStudent()">Add Student</button>
+
+<ul>
+  <li *ngFor="let s of students">{{ s }}</li>
+</ul>
