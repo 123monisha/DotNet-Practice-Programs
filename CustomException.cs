@@ -7,6 +7,7 @@ namespace Practical_Example
     {
         public InvalidAgeException(string message) : base(message)
         {
+        
         }
     }
 
