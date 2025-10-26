@@ -8,6 +8,7 @@ namespace Practical_Example
         public InvalidAgeException(string message) : base(message)
         {
         }
+        
     }
 
     internal class ExceptionHandling
